@@ -12,6 +12,9 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
+        selectedItemColor: Colors.white70,
+        unselectedItemColor: Colors.black,
+        backgroundColor: Colors.grey,
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.home, size: 30),
